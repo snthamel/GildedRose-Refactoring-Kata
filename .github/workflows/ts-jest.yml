@@ -3,7 +3,7 @@ name: ts-jest test runner
 on:
     push:
         paths:
-            - TypeScript/*.ts
+            - TypeScript/*
 
 jobs:
     run-jest-tests:
